@@ -35,7 +35,6 @@ map<string, int> reverseNums =
 string findFirstPattern(std::string currentLine, map<string, int> mapOfValues)
 {
     string firstDigit;
-    string tempNum;
     int firstIndex = 0;
     for (int i = 0; i < currentLine.size(); i++)
     {
