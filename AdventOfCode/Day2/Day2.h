@@ -4,5 +4,11 @@
 #pragma once
 
 #include <iostream>
+#include <iostream>
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <ctype.h>
+#include <vector>
+#include <map>
 
-// TODO: Reference additional headers your program requires here.
