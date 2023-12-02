@@ -32,8 +32,6 @@ map<string, int> reverseNums =
     {"enin", 9}
 };
 
-vector<int> allPatterns;
-
 string findFirstPattern(std::string currentLine, map<string, int> mapOfValues)
 {
     string firstDigit;
