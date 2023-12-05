@@ -70,13 +70,7 @@ int part1(vector<string> input)
 	{
 		int count = getNumberOfWinners(input[i]);
 		
-		if (count == 1)
-			totalWinnings += 1;
-		else if (count > 1)
-		{
-			totalWinnings += (pow(2, count - 1));
-		}
-
+		totalWinnings += (pow(2, count - 1));
 	}
 	return totalWinnings;
 }
